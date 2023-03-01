@@ -1,0 +1,167 @@
+
+NC Settings
+-----------
+
+.. csv-table::
+    :header: Axis ID, Name
+    :align: center
+
+        1, Axis 1 - X
+        2, Axis 2 - Y
+        3, Axis 3 - Z
+        4, Axis 4 - rY
+        5, Axis 5 - Shroud
+        6, Axis 6 - ZEnc
+
+
+
+Axis 1: Axis 1 - X
+^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 1
+    Name, Axis 1 - X
+    AxisType, 1
+    CreateSymbols, true
+    Dynamic:Acceleration, 10
+    Dynamic:AccelerationMaximum, 10
+    Dynamic:Deceleration, 10
+    Dynamic:DecelerationMaximum, 10
+    Enc:EncType, 4
+    Enc:Inc:RefSoftSyncMask, #x0000ffff
+    Enc:MaxCount, #x0000ffff
+    Enc:ScaleFactorNumerator, 9.15e-06
+    Id, 1
+    OtherSettings:AllowMotionCmdToSlave, true
+    Velo:Maximum, 1
+
+
+
+Axis 2: Axis 2 - Y
+^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 2
+    Name, Axis 2 - Y
+    AxisType, 1
+    CreateSymbols, true
+    Dynamic:Acceleration, 1
+    Dynamic:AccelerationMaximum, 1
+    Dynamic:Deceleration, 1
+    Dynamic:DecelerationMaximum, 1
+    Enc:EncType, 29
+    Enc:Inc:RefSoftSyncMask, #x0000ffff
+    Enc:MaxCount, #xffffffff
+    Enc:ScaleFactorNumerator, 5e-05
+    Id, 2
+    OtherSettings:AllowMotionCmdToSlave, true
+    Velo:Maximum, 9
+
+
+
+Axis 3: Axis 3 - Z
+^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 3
+    Name, Axis 3 - Z
+    AxisType, 1
+    CreateSymbols, true
+    Dynamic:Acceleration, 1
+    Dynamic:AccelerationMaximum, 1
+    Dynamic:Deceleration, 1
+    Dynamic:DecelerationMaximum, 1
+    Enc:EncType, 4
+    Enc:Inc:RefMode, 2
+    Enc:Inc:RefSoftSyncMask, #x0000ffff
+    Enc:Inverse, true
+    Enc:MaxCount, #x0000ffff
+    Enc:ScaleFactorNumerator, 2.35e-06
+    Id, 3
+    OtherSettings:AllowMotionCmdToSlave, true
+    PositionAreaControl:Enable, false
+    PositionAreaControl:Range, 10
+    Velo:Maximum, 0.3
+
+
+
+Axis 4: Axis 4 - rY
+^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 4
+    Name, Axis 4 - rY
+    AxisType, 1
+    CreateSymbols, true
+    Dynamic:Acceleration, 100
+    Dynamic:AccelerationMaximum, 100
+    Dynamic:Deceleration, 100
+    Dynamic:DecelerationMaximum, 100
+    Enc:EncType, 4
+    Enc:Inc:RefMode, 2
+    Enc:Inc:RefSoftSyncMask, #x0000efff
+    Enc:MaxCount, #x0000ffff
+    Enc:ScaleFactorNumerator, 0.0003125
+    General:UnitName, Degree
+    Id, 4
+    OtherSettings:AllowMotionCmdToSlave, true
+    Velo:Maximum, 40
+
+
+
+Axis 5: Axis 5 - Shroud
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 5
+    Name, Axis 5 - Shroud
+    AxisType, 1
+    CreateSymbols, true
+    Disabled, true
+    Dynamic:Acceleration, 2
+    Dynamic:AccelerationMaximum, 5
+    Dynamic:Deceleration, 3
+    Dynamic:DecelerationMaximum, 3
+    Enc:EncType, 4
+    Enc:Inc:RefSoftSyncMask, #x0000ffff
+    Enc:MaxCount, #x0000ffff
+    Enc:ScaleFactorNumerator, 0.0003125
+    Id, 5
+    OtherSettings:AllowMotionCmdToSlave, true
+    Velo:Maximum, 30
+
+
+
+Axis 6: Axis 6 - ZEnc
+^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 6
+    Name, Axis 6 - ZEnc
+    AxisType, 1
+    CreateSymbols, true
+    Enc:EncType, 29
+    Enc:MaxCount, #xffffffff
+    Enc:ScaleFactorNumerator, 5e-05
+    Id, 6
+    OtherSettings:AllowMotionCmdToSlave, true
+
+
